@@ -98,20 +98,29 @@ nav {
 }
 .big-flex-div {
     flex-basis: 60%;
-    border: 1px dashed black;
-    background-color: #1E90FF;
+}
+.big-img1 {
+    background-image: url("../images/item1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .small-flex-div {
     flex-basis: 40%;
-    border: 1px dashed black;
-    background-color: #FFC0CB;
+}
+.title {
+    margin: 27px 70px 10px;
+    line-height: 2rem;
+}
+.paragraph {
+    margin: 20px 70px 0;
+    line-height: 1.5rem;
 }
 .section-main {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .grey {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 #last-main-container {
     max-width: 980px;
